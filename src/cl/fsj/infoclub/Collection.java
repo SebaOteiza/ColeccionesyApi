@@ -12,8 +12,8 @@ public class Collection {
 	/*	DecimalFormat df = new DecimalFormat("#.000");
 
 		ArrayList<Double> decimales = new ArrayList<Double>();
-		// el arrayloist ordena por orden de ingreso, en el arraylist puedo pedir que
-		// ordene de otra forma y que lo haga de muchas formas (menor a mayir ejemplo)
+		// el arraylist ordena por orden de ingreso, en el arraylist puedo pedir que ordene de otra forma y que lo haga de muchas formas (menor a mayor ejemplo)
+		
 
 		decimales.add(32.4);
 		decimales.add(Double.parseDouble(df.format(Math.random())));
@@ -133,7 +133,7 @@ public class Collection {
 		
 				//*********QUEUE
 		
-				// mantener los elemtnos a punto de ser procesados y proporciona varias operaciones 
+				// mantener los elementos a punto de ser procesados y proporciona varias operaciones 
 				
 				Queue <String> nicknames = new LinkedList<>(); 
 				
@@ -153,12 +153,12 @@ public class Collection {
 				nicknames.add("cr111");
 				nicknames.add("kesillox");
 				nicknames.add("rolando90"); //
+				
 				System.out.println(nicknames);
 				
 				// nos debería imprimir la cola completa según orden de ingreso
 				//no es un SET por ende si puede imprimir los elementos repetidos 
-				//SI YO LE PIDO ELIMINAR UN ELEMENTO, DEBO ELIMINAR EL PRIMER DE LA LISTA
-				//EL METODO POLL 
+				//SI YO LE PIDO ELIMINAR UN ELEMENTO, va a eliminar el primero de la lista , ELIMINAR EL PRIMER DE LA LISTA
 				
 	}
 }
