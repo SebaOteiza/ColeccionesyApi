@@ -198,6 +198,13 @@ public class Ejemplos {
 		//*********QUEUE
 		
 		// mantener los elementos a punto de ser procesados y proporciona varias operaciones 
+		/* La colección Queue se utiliza para mantener los elementos a punto de ser procesados y
+		proporciona varias operaciones como la inserción, eliminación, etc. Es una lista ordenada de
+		objetos con su uso limitado para insertar elementos al final de la lista y eliminar elementos
+		desde el principio de lista, es decir, sigue el principio “Primero en entrar, primero en salir”*/
+		
+		//Al ser una interfaz, la cola necesita una clase concreta para la 	declaración y las clases más comunes son PriorityQueue y LinkedList
+	
 		
 		Queue <String> nicknames = new LinkedList<>(); 
 		
@@ -221,11 +228,19 @@ public class Ejemplos {
 		nicknames.add("sebaoteiza");
 		System.out.println(nicknames);
 		System.out.println("*************");
-		
-		
+	
 		// nos debería imprimir la cola completa según orden de ingreso
 		//no es un SET por ende si puede imprimir los elementos repetidos 
 		//SI YO LE PIDO ELIMINAR UN ELEMENTO, va a eliminar el primero de la lista , ELIMINAR EL PRIMER DE LA LISTA
+		
+		
+		
+		
+		
+		
+		
+		
+		//Si queremos borrar una colección completa de la lista, debemos usar el método removeAll().
 		
 		
 	}
