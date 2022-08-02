@@ -12,6 +12,12 @@ public class Ejemplos {
 	
 	public static void main(String[] args) {
 		
+		//List: Una lista es una colección ordenada, a veces llamada secuencia, que contiene elementos en su interior.
+		//La plataforma Java contiene dos implementaciones de Lista de propósito general: ArrayList, que suele ser la implementación con mejor rendimiento; y LinkedList, que ofrece un mejor rendimiento en determinadas circunstancias.
+		
+		
+
+		
 		//EJEMPLO ARRAYLIST
 		
 		//Para crear una ArrayList<>() hay que importar su implementación desde “util.java.ArrayList”
@@ -121,6 +127,7 @@ public class Ejemplos {
 		//UTILIADES ESPECIFICAS, no son de uso cotidiano como el ArrayList
 		
 		/*//Set<String> nicknames = new HashSet<>();
+		
 		nicknames.add("Ducksito");
 		nicknames.add("rolando90");
 		nicknames.add("polypleti");
@@ -173,6 +180,7 @@ public class Ejemplos {
 		//TreeSet almacena sus elementos en un árbol rojo-negro, es decir, ordena sus elementos en función de sus valores. Es sustancialmente más lento que HashSet.
 		
 			Set<String> nicknames1 = new TreeSet<>(); 
+			
 		nicknames1.add("Ducksito");
 		nicknames1.add("rolando90");
 		nicknames1.add("polypleti");
